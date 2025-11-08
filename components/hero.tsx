@@ -20,8 +20,7 @@ export function Hero() {
           in control.
         </h1>
         <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[540px] mx-auto">
-          Applyo helps final-year students and fresh grads craft standout resumes, tailor cover letters, and complete
-          applications in minutes—now with an optional Auto-Applier that submits on your terms.
+          Applyo is your career-shaping wingman — helping you build better resumes, write smarter applications, and apply to jobs faster, with full control through optional assisted auto-apply.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-14">
