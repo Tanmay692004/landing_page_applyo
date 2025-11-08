@@ -1,4 +1,4 @@
-# Applyo README
+# Applyo
 
 ## Introduction
 
