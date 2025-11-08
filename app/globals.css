@@ -12,8 +12,8 @@
 }
 
 @font-face {
-  font-family: "Sentient";
-  src: url("/Sentient-LightItalic.woff") format("woff");
+  font-family: "helvetica-neue";
+  src: url("/helvetica-neue.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
