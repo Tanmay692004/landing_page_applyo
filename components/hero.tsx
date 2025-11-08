@@ -1,0 +1,46 @@
+"use client"
+
+import Link from "next/link"
+import { GL } from "./gl"
+import { Pill } from "./pill"
+import { Button } from "./ui/button"
+import { useState } from "react"
+
+export function Hero() {
+  const [hovering, setHovering] = useState(false)
+  return (
+    <div className="flex flex-col h-svh justify-between">
+      <GL hovering={hovering} />
+
+      <div className="pb-16 mt-auto text-center relative z-10">
+        <Pill className="mb-6">EARLY ACCESS</Pill>
+        <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient text-balance">
+          Apply smarter. <br />
+          <i className="font-light">Faster.</i> With you <br />
+          in control.
+        </h1>
+        <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[540px] mx-auto">
+          Applyo helps final-year students and fresh grads craft standout resumes, tailor cover letters, and complete
+          applications in minutes—now with an optional Auto-Applier that submits on your terms.
+        </p>
+
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-14">
+          <Link className="contents" href="#start">
+            <Button onMouseEnter={() => setHovering(true)} onMouseLeave={() => setHovering(false)}>
+              [Start Free →]
+            </Button>
+          </Link>
+          <Link className="contents" href="#extension">
+            <button className="uppercase border border-border text-foreground/60 hover:text-foreground/100 font-mono text-sm px-6 h-14 transition-colors duration-300">
+              [Try Extension →]
+            </button>
+          </Link>
+        </div>
+
+        <p className="font-mono text-xs sm:text-sm text-foreground/40 text-balance mt-8">
+          Trusted by students from IIT • DU • SRM • MIT WPU
+        </p>
+      </div>
+    </div>
+  )
+}
