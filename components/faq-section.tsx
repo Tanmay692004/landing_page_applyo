@@ -32,7 +32,7 @@ export function FAQSection() {
   ]
 
   return (
-    <section className="py-20 md:py-32 container relative z-10 border-t border-border/30">
+    <section id="faq" className="py-20 md:py-32 container relative z-10 border-t border-border/30">
       <div className="text-center mb-16">
         <Pill className="mb-4 justify-center">QUESTIONS</Pill>
         <h2 className="text-4xl md:text-5xl font-sentient mb-4">Frequently Asked</h2>

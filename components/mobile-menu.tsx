@@ -14,9 +14,10 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { name: "About", href: "#about" },
-    { name: "Portfolio", href: "#portfolio" },
-    { name: "Insights", href: "#insights" },
+    { name: "Why Applyo", href: "#value-props" },
+    { name: "How It Works", href: "#how-it-works" },
+    { name: "Platform", href: "#platform-features" },
+    { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
   ];
 

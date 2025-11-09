@@ -22,7 +22,7 @@ export function ValueProps() {
   ]
 
   return (
-    <section className="py-20 md:py-32 container relative z-10">
+    <section id="value-props" className="py-20 md:py-32 container relative z-10">
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-sentient mb-4">Why Applyo</h2>
         <p className="text-foreground/60 max-w-2xl mx-auto font-mono text-sm md:text-base">

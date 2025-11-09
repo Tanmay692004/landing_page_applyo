@@ -2,7 +2,7 @@ import { Pill } from "./pill"
 
 export function SecurityCompliance() {
   return (
-    <section className="py-20 md:py-32 container relative z-10 border-t border-border/30">
+    <section id="security-compliance" className="py-20 md:py-32 container relative z-10 border-t border-border/30">
       <div className="text-center mb-12">
         <Pill className="mb-4 justify-center">SECURITY & COMPLIANCE</Pill>
         <h2 className="text-4xl md:text-5xl font-sentient mb-4">Privacy-First by Design</h2>
