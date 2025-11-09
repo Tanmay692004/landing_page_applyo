@@ -24,16 +24,16 @@ export function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-14">
-          <Link className="contents" href="#start">
+          <Link className="contents" href="https://app.applyo.app/">
             <Button onMouseEnter={() => setHovering(true)} onMouseLeave={() => setHovering(false)}>
               [Start Free →]
             </Button>
           </Link>
-          <Link className="contents" href="#extension">
+          {/* <Link className="contents" href="#extension">
             <button className="uppercase border border-border text-foreground/60 hover:text-foreground/100 font-mono text-sm px-6 h-14 transition-colors duration-300">
               [Try Extension →]
             </button>
-          </Link>
+          </Link> */}
         </div>
 
         <p className="font-mono text-xs sm:text-sm text-foreground/40 text-balance mt-8">
