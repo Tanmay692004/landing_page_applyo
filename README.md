@@ -139,6 +139,7 @@ The **Auto-Applier** is designed for power users who want to automate job applic
 * **Support Email**: [support@applyo.com](mailto:support@applyo.com)
 * **Terms of Service**: [Link to Terms](#)
 * **Privacy Policy**: [Link to Privacy Policy](#)
+* **Repository**: https://github.com/quadcydle-main/app-applyo.git
 
 ---
 

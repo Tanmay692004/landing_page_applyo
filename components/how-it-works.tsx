@@ -1,4 +1,5 @@
 import { Pill } from "./pill"
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "./ui/accordion"
 
 export function HowItWorks() {
   const steps = [
@@ -21,6 +22,35 @@ export function HowItWorks() {
       <div className="text-center mb-16">
         <Pill className="mb-4 justify-center">HOW IT WORKS</Pill>
         <h2 className="text-4xl md:text-5xl font-sentient mb-4">Your Application in 3 Steps</h2>
+      </div>
+
+      {/* Collapsible demo video */}
+      <div className="text-center mb-8">
+        <Accordion type="single" collapsible defaultValue="">
+          <AccordionItem value="video" className="inline-block">
+            <AccordionTrigger>
+              <Pill className="px-4 h-9 text-sm md:text-base">WATCH A SHORT DEMO</Pill>
+            </AccordionTrigger>
+            <AccordionContent>
+              <div className="mx-auto w-full px-4 sm:px-0">
+                <div className="mx-auto w-full md:w-[50vw] md:max-w-none relative pt-[62%] md:pt-[56.25%]">
+                  {/*
+                    Place a video file at `public/how-it-works.mp4` to use the local video.
+                    If you prefer an embedded YouTube/Vimeo video, replace the <video> with an <iframe>.
+                  */}
+                  <video
+                    controls
+                    className="absolute inset-0 w-full h-full rounded-lg shadow-2xl border border-border/30 object-cover"
+                    src="/how-it-works.mp4"
+                    playsInline
+                  >
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
       </div>
 
       <div className="grid md:grid-cols-3 gap-8 md:gap-6">

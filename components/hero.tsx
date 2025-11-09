@@ -13,7 +13,7 @@ export function Hero() {
       <GL hovering={hovering} />
 
       <div className="pb-16 mt-auto text-center relative z-10">
-        <Pill className="mb-6">EARLY ACCESS</Pill>
+        <Pill className="mb-6">LIVE</Pill>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient text-balance">
           Apply smarter. <br />
           <i className="font-light">Faster.</i> With you <br />

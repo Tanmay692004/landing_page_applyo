@@ -42,6 +42,11 @@ export function Footer() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link href="https://github.com/quadcydle-main/app-applyo.git" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                Source
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
