@@ -49,27 +49,6 @@ export function AutoApplier() {
           </div>
         </div>
       </div>
-
-      <div className="bg-background/30 border border-primary/20 rounded-lg p-8 md:p-12 backdrop-blur">
-        <h4 className="text-xl font-sentient mb-4">What Auto-Applier Will NOT Do</h4>
-        <ul className="grid md:grid-cols-3 gap-4 text-foreground/70 text-sm">
-          <li className="flex gap-2">
-            <span className="text-primary">✗</span>
-            <span>Bypass CAPTCHAs or site security</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-primary">✗</span>
-            <span>Misrepresent your credentials</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-primary">✗</span>
-            <span>Violate job board terms of service</span>
-          </li>
-        </ul>
-        <p className="text-foreground/50 text-xs mt-6 font-mono">
-          Applyo is an assistive tool. You stay accountable and in control.
-        </p>
-      </div>
     </section>
   )
 }

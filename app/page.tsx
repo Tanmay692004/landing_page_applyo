@@ -4,7 +4,6 @@ import { Hero } from "@/components/hero"
 import { ValueProps } from "@/components/value-props"
 import { HowItWorks } from "@/components/how-it-works"
 import { PlatformFeatures } from "@/components/platform-features"
-import { ExtensionAutoApplier } from "@/components/extension-auto-applier"
 import { Testimonials } from "@/components/testimonials"
 import { SecurityCompliance } from "@/components/security-compliance"
 import { FAQSection } from "@/components/faq-section"
@@ -17,8 +16,7 @@ export default function Home() {
       <Hero />
       <ValueProps />
       <HowItWorks />
-      <PlatformFeatures />
-      <ExtensionAutoApplier />
+  <PlatformFeatures />
       <Testimonials />
       <SecurityCompliance />
       <FAQSection />

@@ -21,11 +21,7 @@ export function Footer() {
                 ATS Checker
               </Link>
             </li>
-            <li>
-              <Link href="#" className="hover:text-primary transition-colors">
-                Extension
-              </Link>
-            </li>
+            {/* Product link removed per update */}
           </ul>
         </div>
         <div>
@@ -62,7 +58,7 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-primary transition-colors">
+              <Link href="mailto:quadcydle@gmail.com" className="hover:text-primary transition-colors">
                 Contact
               </Link>
             </li>

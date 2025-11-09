@@ -14,6 +14,11 @@ export const metadata: Metadata = {
   description:
     "Applyo helps students and fresh grads apply faster with ATS-ready resumes, tailored cover letters, one-click autofill, and an optional Auto-Applier you fully control.",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({

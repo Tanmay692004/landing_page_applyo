@@ -29,11 +29,7 @@ export function Hero() {
               [Start Free →]
             </Button>
           </Link>
-          {/* <Link className="contents" href="#extension">
-            <button className="uppercase border border-border text-foreground/60 hover:text-foreground/100 font-mono text-sm px-6 h-14 transition-colors duration-300">
-              [Try Extension →]
-            </button>
-          </Link> */}
+  {/* Removed call-to-action per product scope */}
         </div>
 
         <p className="font-mono text-xs sm:text-sm text-foreground/40 text-balance mt-8">

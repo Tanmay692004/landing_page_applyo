@@ -14,10 +14,10 @@
 * **ATS Optimization**: Includes a built-in ATS checker that ensures your documents are optimized with the right keywords and formatting.
 * **Impact-Driven Bullet Points**: Suggestions to rewrite bullet points in a way that highlights your achievements effectively.
 
-### 2. **Auto-Fill & Auto-Apply (Chrome Extension)**
+### 2. **Auto-Fill & Auto-Apply**
 
 * **Autofill Fields**: Autofill job application fields (e.g., on LinkedIn, Naukri, Indeed) using Applyo memory.
-* **One-Click Apply**: Easily apply to jobs with minimal effort through the Applyo Chrome extension, with options to auto-submit under controlled conditions using the **Auto-Applier**.
+* **One-Click Apply**: Easily apply to jobs with minimal effort; Auto-Applier can optionally auto-submit under controlled conditions using your configured rules.
 * **Customizable Rules**: Set your rules for the Auto-Applier, including match percentages, ATS score thresholds, and approval before submission.
 
 ### 3. **Job Matching & Resume Optimization**
@@ -44,16 +44,7 @@
 
 1. **Import & Set Up**: Upload or paste your resume(s), specify targeted roles, and set preferences for tone and industry.
 2. **Match & Optimize**: Copy-paste a job description or provide a job listing URL to see Applyo’s recommendations for optimization and keyword inclusion.
-3. **Apply Your Way**: Use the **Auto-Fill Extension** for fast, one-click application filling or the **Auto-Applier** for automated submissions based on your preferences.
-
----
-
-## Chrome Extension Features
-
-* **Autofill Job Application Fields**: Automatically fill forms on major job boards (LinkedIn, Indeed, Naukri, etc.) with your Applyo profile.
-* **Inline Apply Suggestions**: Receive helpful suggestions on how to improve your application (e.g., “Add 2 relevant keywords” or “Rewrite this sentence for better impact”).
-* **Tone Tweaks & Grammar Suggestions**: Make one-click edits to improve tone or grammar for consistency across applications.
-* **Visibility & Controls**: Preview autofilled data before submission, and undo or revert any changes in one click.
+3. **Apply Your Way**: Use one-click autofill for fast application filling or the **Auto-Applier** for automated submissions based on your preferences.
 
 ---
 
@@ -87,14 +78,14 @@ The **Auto-Applier** is designed for power users who want to automate job applic
 
 * Limited ATS checks & optimizations.
 * 3 resume slots.
-* Basic extension autofill credits.
+* Basic autofill credits.
 * Basic job tracker.
 
 ### **Pro Plan**
 
 * Unlimited ATS checks & resume rewrites.
 * Unlimited resume slots.
-* Full extension autofill credits.
+* Full autofill credits.
 * Access to Auto-Applier with configurable rules.
 * Priority support.
 
@@ -118,7 +109,7 @@ The **Auto-Applier** is designed for power users who want to automate job applic
 
 **Does it work on all sites?**
 
-* Applyo supports major job boards and career portals, and compatibility is growing. You can disable the extension on any unsupported sites.
+* Applyo supports major job boards and career portals, and compatibility is growing. You can disable autofill on any unsupported sites.
 
 **Can I store multiple resumes?**
 

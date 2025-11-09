@@ -13,7 +13,7 @@ export function ValueProps() {
     {
       title: "One-click fill (and now one-click apply)",
       description:
-        "Use the browser extension for fast, accurate autofill—or enable Auto-Applier to submit with your review rules.",
+        "Use one-click autofill for fast, accurate form filling—or enable Auto-Applier to submit with your review rules.",
     },
     {
       title: "Human in the loop",

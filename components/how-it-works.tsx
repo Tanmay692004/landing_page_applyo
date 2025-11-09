@@ -12,7 +12,7 @@ export function HowItWorks() {
     },
     {
       title: "Apply your way",
-      details: ["Extension: Autofill fields anywhere", "Auto-Applier: Submit per your rules", "Stay fully in control"],
+      details: ["Autofill fields anywhere", "Auto-Applier: Submit per your rules", "Stay fully in control"],
     },
   ]
 

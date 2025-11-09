@@ -2,19 +2,23 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { Pill } from "./pill"
 
 export function PlatformFeatures() {
+  // Reduced feature list to match the UI screenshot provided by the user.
   const features = [
+    
+    { title: "AI Resume Improver", desc: "Section-wise rewrites + quantified bullet suggestions" },
     { title: "Cover Letter Maker", desc: "Personalized drafts from your resume + JD, with tone presets" },
     { title: "ATS Score Checker", desc: "Missing keywords, formatting issues, readability with one-click fixes" },
-    { title: "Resume Improver", desc: "Section-wise rewrites + quantified bullet suggestions" },
-    { title: "Job Finder", desc: "Aggregates early-career roles; filter by skills, level, interest" },
-    { title: "Job Matcher", desc: "See match % and get specific edits for a listing" },
-    { title: "Resume Field Suggestions", desc: "Fill gaps with certifications and achievements" },
-    { title: "Job Listing Validity Checker", desc: "Flags stale/scam posts using signals + community feedback" },
-    { title: "Job ↔ Resume Comparison", desc: "Line-by-line alignment and targeted edits" },
-    { title: "Job Tracker", desc: "Keep every application, status, and notes in one place" },
-    { title: "Interview Prep", desc: "AI-generated interview questions and answers" },
+    { title: "ATS Score Improver", desc: "Automated suggestions to raise your ATS score" },
+    { title: "Job-to-Resume Comparison", desc: "Line-by-line alignment and targeted edits" },
     { title: "Skill Gap Finder", desc: "Identify missing skills for your target roles" },
-    { title: "Blog & Insights", desc: "Trends, keywords, interview tips, and portfolio guidance" },
+    { title: "Interview Question Generator", desc: "AI-generated interview questions and answers" },
+
+    { title: "Job Finder", desc: "Aggregates early-career roles; filter by skills, level, interest" },
+    { title: "Job Tracker", desc: "Keep every application, status, and notes in one place" },
+    { title: "Job Listing Validity Checker", desc: "Flags stale/scam posts using signals + community feedback" },
+
+    { title: "Start Auto-Apply", desc: "Enable Auto-Applier with review rules and safeguards" },
+    { title: "Simple Interface", desc: "All the tools you need in one place" },
   ]
 
   return (
@@ -27,16 +31,16 @@ export function PlatformFeatures() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {features.map((feature, i) => (
           <Card
             key={i}
-            className="bg-background/50 border-border/30 backdrop-blur hover:border-primary/30 transition-colors"
+            className="bg-background/50 border-border/30 backdrop-blur hover:border-primary/30 transition-colors min-h-[140px] flex flex-col justify-between"
           >
             <CardHeader className="pb-3">
               <CardTitle className="text-base text-white">{feature.title}</CardTitle>
             </CardHeader>
-            <CardContent>
+            <CardContent className="mt-2">
               <CardDescription className="text-foreground/50 text-xs md:text-sm">{feature.desc}</CardDescription>
             </CardContent>
           </Card>
